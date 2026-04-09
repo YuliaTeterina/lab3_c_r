@@ -25,11 +25,9 @@ int main()
     // Установка русской локали для консоли
     setlocale(LC_ALL, "Russian");
 
-    std::string fileName;
-    std::cout << "Введите имя файла с префиксным выражением: ";
-    std::cin >> fileName;
-
+    std::string fileName = "C:/Users/Julia/source/repos/laba3_c_r/2/Lab3_Task2_gemini/Lab3_Task2_gemini/tree.txt";
     std::ifstream file(fileName);
+
     if (!file.is_open())
     {
         std::cerr << "Ошибка: Не удалось открыть файл " << fileName << std::endl;

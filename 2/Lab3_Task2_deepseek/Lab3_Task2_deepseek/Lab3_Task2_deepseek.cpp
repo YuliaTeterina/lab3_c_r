@@ -68,11 +68,9 @@ int main()
 {
     setlocale(LC_ALL, "Russian"); // для вывода сообщений на русском
 
-    std::string filename;
-    std::cout << "Введите имя файла с выражением: ";
-    std::cin >> filename;
-
+    std::string filename = "C:/Users/Julia/source/repos/laba3_c_r/2/Lab3_Task2_deepseek/Lab3_Task2_deepseek/tree.txt";
     std::ifstream file(filename);
+
     if (!file.is_open()) 
     {
         std::cerr << "Ошибка: не удалось открыть файл " << filename << std::endl;

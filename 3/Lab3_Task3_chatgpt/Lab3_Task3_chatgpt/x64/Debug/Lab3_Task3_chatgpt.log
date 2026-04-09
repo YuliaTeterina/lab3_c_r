@@ -1,6 +1,0 @@
-﻿  FileManager.cpp
-  Graph.cpp
-C:\Users\sofia\CodeReview\Lab3\Lab3_Task3_chatgpt\Lab3_Task3_chatgpt\Graph.cpp(19,14): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  Lab3_Task3_chatgpt.cpp
-  Создание кода...
-  Lab3_Task3_chatgpt.vcxproj -> C:\Users\sofia\CodeReview\Lab3\Lab3_Task3_chatgpt\x64\Debug\Lab3_Task3_chatgpt.exe

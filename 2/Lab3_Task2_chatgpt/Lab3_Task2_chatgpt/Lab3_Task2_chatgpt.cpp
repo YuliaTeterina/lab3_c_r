@@ -2,16 +2,14 @@
 #include <fstream>
 #include "parser.h"
 #include "tree.h"
+#include <filesystem>
 
 int main()
 {
     std::setlocale(LC_ALL, "Russian");
 
-    std::string filename;
-    std::cout << "Введите имя файла: ";
-    std::cin >> filename;
+    std::ifstream file("C:/Users/Julia/source/repos/laba3_c_r/2/Lab3_Task2_chatgpt/Lab3_Task2_chatgpt/tree.txt");
 
-    std::ifstream file(filename);
     if (!file.is_open())
     {
         std::cout << "Ошибка: не удалось открыть файл\n";
